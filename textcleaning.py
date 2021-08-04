@@ -63,7 +63,7 @@ def remove_multiple_space(text):
 
   return text
 
-def text_cleaning(text):
+def text_clean(text):
   text=str(text).lower()
   text = decontracted(text)
   text = remove_urls(text)
