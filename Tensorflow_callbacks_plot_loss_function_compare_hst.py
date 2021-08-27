@@ -1,4 +1,5 @@
 import datetime
+import tensorflow as tf
 
 def create_tensorboard_callback(dir_name, experiment_name):
   """
